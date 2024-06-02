@@ -1,7 +1,7 @@
 import React, {  useState } from 'react'
 import Title from '../Layouts/Title';
 import Education from './Education';
-import Skills from './Skills';
+import Skills from '../Skills/Skills';
 import Achievement from './Achievement';
 import Experience from './Experience'
 

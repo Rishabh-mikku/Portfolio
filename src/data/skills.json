@@ -1,0 +1,50 @@
+[
+    {
+      "title": "Java",
+      "imageSrc": "skills/java.png"
+    },
+    {
+      "title": "Python",
+      "imageSrc": "skills/python.png"
+    },
+    {
+      "title": "C++",
+      "imageSrc": "skills/cpp.png"
+    },
+    {
+      "title": "C",
+      "imageSrc": "skills/c.png"
+    },
+    {
+        "title": "React",
+        "imageSrc": "skills/react.png"
+    },
+    {
+        "title": "MongoDB",
+        "imageSrc": "skills/mongodb.png"
+    },
+    {
+        "title": "TensorFlow",
+        "imageSrc": "skills/tensorflow.png"
+    },
+    {
+        "title": "Spring Boot",
+        "imageSrc": "skills/springboot.png"
+    },
+    {
+        "title": "Ubuntu",
+        "imageSrc": "skills/ubuntu.png"
+    },
+    {
+        "title": "RedHat",
+        "imageSrc": "skills/redhat.png"
+    },
+    {
+        "title": "Docker",
+        "imageSrc": "skills/docker.png"
+    },
+    {
+        "title": "AWS",
+        "imageSrc": "skills/aws.png"
+    }
+  ]

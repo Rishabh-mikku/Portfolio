@@ -7,6 +7,7 @@ import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
+import Skills from './components/Skills/Skills'
 
 const App = () => {
   return (
