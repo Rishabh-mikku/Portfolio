@@ -16,30 +16,36 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
+              <h3>ML/AI Programmer</h3>
               <p>
-                I'm a frontend developer with experience in building responsive
-                and optimized sites
+              I'm an ML/AI programmer with experience in developing intelligent systems and data-driven solutions
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>DevOps</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              Experience in automating deployment pipelines and maintaining robust, high-availability systems.
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>Competitive Programmer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+              Experience in solving complex algorithmic challenges and optimizing code for performance.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Java Developer</h3>
+              <p>
+              Created robust, scalable applications as a Java developer with a focus on ensuring efficient performance.
               </p>
             </div>
           </li>

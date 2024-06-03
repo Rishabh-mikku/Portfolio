@@ -50,18 +50,23 @@
     background-repeat: no-repeat;
     transition: 0.4s;
   }
+
+  .aboutItem h3 {
+    font-weight: 400;
+  }
   
   .aboutItem:hover {
     background-size: 100% 100%;
   }
   
   .aboutItem h3 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 600;
   }
   
   .aboutItem p {
-    font-size: 25px;
+    margin-top: 5px;
+    font-size: 20px;
   }
   
   @media screen and (max-width: 830px) {
