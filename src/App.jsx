@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import Banner from './components/Banner/Banner'
-import Features from './components/Features/Features'
 import Projects from './components/Projects/Projects'
 import Resume from './components/Resume/Resume'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import FooterBottom from './components/Footer/FooterBottom'
-import Skills from './components/Skills/Skills'
+import About from './components/About/About'
 
 const App = () => {
   return (
@@ -15,7 +14,7 @@ const App = () => {
       <Navbar/>
       <div className="max-w-screen-xl mx-auto">
         <Banner/>
-        <Features/>
+        <About />
         <Projects/>
         <Resume/>
         <Contact/>
