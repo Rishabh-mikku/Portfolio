@@ -1,6 +1,8 @@
 import React from 'react'
 import Title from '../Layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import projectOne from "../../assets/images/projects/projectOne.jpg";
+import projectTwo from "../../assets/images/projects/projectTwo.jpg";
+import projectThree from "../../assets/images/projects/projectThree.jpeg";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -44,7 +46,7 @@ const Projects = () => {
           title="E-commerce Website"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          src={projectTwo}
         />
         <ProjectsCard
           title="Chatting App"
