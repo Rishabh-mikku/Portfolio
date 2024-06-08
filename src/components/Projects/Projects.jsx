@@ -3,6 +3,7 @@ import Title from '../Layouts/Title'
 import projectOne from "../../assets/images/projects/projectOne.jpg";
 import projectTwo from "../../assets/images/projects/projectTwo.jpg";
 import projectThree from "../../assets/images/projects/projectThree.jpg";
+import projectFour from "../../assets/images/projects/projectFour.jpg";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -37,11 +38,10 @@ const Projects = () => {
           github_link = "https://github.com/Rishabh-mikku/Voice-Assistant-Java"
         />
         <ProjectsCard
-          title="SOCIAL MEDIA CLONE"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
-          github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
+          title="ZILLOW HOME VALUE PREDICTION"
+          des="Predicting home prices using machine learning techniques. By leveraging various features of homes and surrounding data, the model predicts the future values of homes listed on Zillow."
+          src={projectFour}
+          github_link = "https://github.com/ML-Project-Zillow-Home-Value-Prediction/Zillow-Home-Value-Prediction"
         />
         <ProjectsCard
           title="E-commerce Website"
