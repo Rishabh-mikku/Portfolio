@@ -43,20 +43,6 @@ const Projects = () => {
           src={projectFour}
           github_link = "https://github.com/ML-Project-Zillow-Home-Value-Prediction/Zillow-Home-Value-Prediction"
         />
-        <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
-        />
-        <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectTwo}
-          github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
-        />
       </div>
     </section>
   );
