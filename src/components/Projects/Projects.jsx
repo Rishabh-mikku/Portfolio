@@ -25,11 +25,10 @@ const Projects = () => {
           github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
         />
         <ProjectsCard
-          title="E-commerce Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="RISH SHOPPING SITE"
+          des="A fully responsive front-end website build using React and Vite. The website offers a seamless shopping experience with dedicated sections for Men, Women, and Kids."
           src={projectTwo}
-          github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
+          github_link = "https://github.com/Rishabh-mikku/E-commerce"
         />
         <ProjectsCard
           title="Chatting App"
