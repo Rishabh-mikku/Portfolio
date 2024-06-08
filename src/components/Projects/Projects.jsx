@@ -2,7 +2,7 @@ import React from 'react'
 import Title from '../Layouts/Title'
 import projectOne from "../../assets/images/projects/projectOne.jpg";
 import projectTwo from "../../assets/images/projects/projectTwo.jpg";
-import projectThree from "../../assets/images/projects/projectThree.jpeg";
+import projectThree from "../../assets/images/projects/projectThree.jpg";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -31,11 +31,10 @@ const Projects = () => {
           github_link = "https://github.com/Rishabh-mikku/E-commerce"
         />
         <ProjectsCard
-          title="Chatting App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          title="JAVA VOICE ASSISTANT"
+          des="A Voice Assistant using Java in Eclipse IDE, designed to open websites in Google Chrome and control laptop operations such as opening C and D drives, shut down laptop."
           src={projectThree}
-          github_link = "https://github.com/Rishabh-mikku/Fitness-Club-Website"
+          github_link = "https://github.com/Rishabh-mikku/Voice-Assistant-Java"
         />
         <ProjectsCard
           title="SOCIAL MEDIA CLONE"
