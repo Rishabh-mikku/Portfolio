@@ -20,7 +20,7 @@ jobs:
       run: npm run build
 
     - name: Deploy to S3
-      uses: jakejarvis/s3-sync-action@v0.5.1
+      run: aws s3 sync . s3://rishabh-portfolio --delete
       with:
         args: --acl public-read --follow-symlinks --delete --exact-timestamps
 
