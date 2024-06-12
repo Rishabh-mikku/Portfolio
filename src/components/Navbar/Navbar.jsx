@@ -3,7 +3,8 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import {logo} from "../../assets/index"
+// import {logo} from "../../assets/images/bannerImg.png"
+import { bannerImg } from '../../assets/index'
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -35,7 +36,7 @@ const Navbar = () => {
         </ul>
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-designColor cursor-pointer"
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-yellow-300 cursor-pointer"
         >
           <FiMenu />
         </span>
@@ -43,7 +44,7 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                {/* <img className="w-32" src={logo} alt="logo" /> */}
+                {/* <img className="w-32" src={bannerImg} alt="logo" /> */}
                 <p className="text-sm text-gray-400 mt-2">
                   I'm dedicated to building intelligent systems that shape the future, passionate about the intersection of data and technology.
                 </p>
