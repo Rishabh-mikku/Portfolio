@@ -14,7 +14,20 @@ const About = () => {
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <img 
+            src={getImageUrl("about/sdIcon.png")} 
+            alt="Software Developer icon" />
+            <div className={styles.aboutItemText}>
+              <h3>Software Developer</h3>
+              <p>
+              Building scalable, user-centric applications with a strong emphasis on clean code, system design, and end-to-end feature implementation.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img 
+            src={getImageUrl("about/mlIcon.png")} 
+            alt="ML/AI icon" />
             <div className={styles.aboutItemText}>
               <h3>ML/AI Programmer</h3>
               <p>
@@ -23,7 +36,10 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+            <img 
+            src={getImageUrl("about/devopsIcon.png")} 
+            alt="Devops icon" 
+             />
             <div className={styles.aboutItemText}>
               <h3>DevOps</h3>
               <p>
@@ -32,20 +48,13 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
+            <img 
+            src={getImageUrl("about/compIcon.png")} 
+            alt="Competitive Programmer icon" />
             <div className={styles.aboutItemText}>
               <h3>Competitive Programmer</h3>
               <p>
               Experience in solving complex algorithmic challenges and optimizing code for performance.
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Java Developer</h3>
-              <p>
-              Created robust, scalable applications as a Java developer with a focus on ensuring efficient performance.
               </p>
             </div>
           </li>

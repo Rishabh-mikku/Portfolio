@@ -43,6 +43,18 @@ const Projects = () => {
           src={projectFour}
           github_link = "https://github.com/ML-Project-Zillow-Home-Value-Prediction/Zillow-Home-Value-Prediction"
         />
+        <ProjectsCard
+          title="ZILLOW HOME VALUE PREDICTION"
+          des="Predicting home prices using machine learning techniques. By leveraging various features of homes and surrounding data, the model predicts the future values of homes listed on Zillow."
+          src={projectFour}
+          github_link = "https://github.com/ML-Project-Zillow-Home-Value-Prediction/Zillow-Home-Value-Prediction"
+        />
+        <ProjectsCard
+          title="ZILLOW HOME VALUE PREDICTION"
+          des="Predicting home prices using machine learning techniques. By leveraging various features of homes and surrounding data, the model predicts the future values of homes listed on Zillow."
+          src={projectFour}
+          github_link = "https://github.com/ML-Project-Zillow-Home-Value-Prediction/Zillow-Home-Value-Prediction"
+        />
       </div>
     </section>
   );

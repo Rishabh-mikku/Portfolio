@@ -68,6 +68,13 @@
     margin-top: 5px;
     font-size: 20px;
   }
+
+  .aboutIcon {
+  width: 40px; /* or adjust to your design */
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0; /* Prevents icon from shrinking */
+}
   
   @media screen and (max-width: 830px) {
     .container {
@@ -91,5 +98,10 @@
     .aboutItem {
       padding-left: 0;
       padding-right: 0;
+    }
+
+    .aboutIcon {
+    width: 30px; 
+    margin-right: 15px;
     }
   }
