@@ -15,22 +15,19 @@ const Achievement = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title="2nd Prize in Hackathon, Xebia"
+            title="Specialist on Codeforces"
+            subTitle="Competitive Coding on Codeforces"
+            des="Achieved Specialist title on Codeforces, demonstrating advanced problem-solving skills and proficiency in competitive programming."
+          />
+          <ResumeCard
+            title="1st Prize in Hackathon, Xebia"
             subTitle="Web Development Hackathon"
-            result="2nd Prize"
-            des="Secured 2nd place in a front-end website development hackathon hosted by Xebia, demonstrating exceptional proficiency in web development, innovative problem-solving, and effective collaboration."
+            des="Secured 1st place in a front-end website development hackathon hosted by Xebia, demonstrating exceptional proficiency in web development, innovative problem-solving, and effective collaboration."
           />
           <ResumeCard
-            title="3 Star Rating on Codechef"
-            subTitle="Competitive Coding on Codechef"
-            result="***"
-            des="Achieved 3 Star Rating on a competitive coding platform Codechef."
-          />
-          <ResumeCard
-            title="5 Star Rating on HackerRank"
-            subTitle="Competitive Coding and DSA on HackerRank"
-            result="*****"
-            des="Achieved 5 Star Rating on HackerRank platform in programming languages Java, Python and C++."
+            title="1st prize in Hackathon, TechYons"
+            subTitle="ML/AI Hackathon"
+            des="Secured 1st Prize in ML/AI hackathon organized by Techyons, for building an innovative AI-driven solution, demonstrating expertise in machine learning, problem-solving, and rapid prototyping under time constraints."
           />
         </div>
       </div>
