@@ -12,10 +12,6 @@
       "imageSrc": "skills/cpp.png"
     },
     {
-      "title": "C",
-      "imageSrc": "skills/c.png"
-    },
-    {
         "title": "React",
         "imageSrc": "skills/react.png"
     },
@@ -46,5 +42,9 @@
     {
         "title": "AWS",
         "imageSrc": "skills/aws.png"
+    },
+    {
+      "title": "GCP",
+      "imageSrc": "skills/gcp.png"
     }
   ]

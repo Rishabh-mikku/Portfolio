@@ -16,9 +16,9 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="BTech in Computer Science & Engineering"
-            subTitle="Lovely Professional University (2021 - Present)"
-            result="9.34/10"
-            des="Pursuing a BTech in Computer Science and Engineering with a strong foundation in programming, algorithms, and emerging technologies like AI and Cloud Computing."
+            subTitle="Lovely Professional University (2021 - 2025)"
+            result="9.26/10"
+            des="Graduated with a BTech in Computer Science and Engineering, with a solid foundation in software development, data structures, scalable systems, artificial intelligence, and cloud computing."
           />
           <ResumeCard
             title="Higher Secondary (Class XII)"

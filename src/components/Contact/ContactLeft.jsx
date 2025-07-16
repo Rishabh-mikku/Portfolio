@@ -19,9 +19,6 @@ const ContactLeft = () => {
           Passionate tech enthusiast with a keen interest in exploring and innovating with the latest technologies.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 8052221493</span>
-        </p>
-        <p className="text-base text-gray-400 flex items-center gap-2">
           Email: <span className="text-lightText">mikkurishabh94@gmail.com</span>
         </p>
       </div>
